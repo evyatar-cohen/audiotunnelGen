@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <title></title>
     <script>
-        window.onload = function () {
-            // similar behavior as an HTTP redirect
-            window.location.replace("/Login.aspx");
+        redirect();
+        function redirect() {
+            location.href = '<%= Page.ResolveUrl("~/Login.aspx") %>';
         }
     </script>
 </head>
