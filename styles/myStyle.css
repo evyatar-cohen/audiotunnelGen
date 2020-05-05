@@ -1,0 +1,1201 @@
+﻿/*זה הקובץ הנכון, קובץ זה נבדק ונשמר בתאריך ה05\05 ע"י אסף*/
+#forCheck{
+    visibility:hidden;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+}
+
+#popUpsDefault {
+    position: relative;
+    top: -240px;
+    left: 240px;
+}
+
+
+htmk {
+    width: 100%;
+}
+
+/*Header Full Project*/
+#header {
+    background: rgb(9,70,104);
+    background: linear-gradient(90deg, rgba(9,70,104,1) 0%, rgba(9,70,104,1) 76%, rgba(0,1,1,1) 100%);
+    z-index: 1000;
+    overflow: hidden;
+    padding: 6px;
+}
+
+#logo {
+    display: inline;
+    width: 100px;
+    margin-top: 0.5%;
+    margin-right: 2%;
+    margin-bottom:
+}
+
+#GenNav {
+    display: inline-block;
+    float: left;
+}
+
+    #GenNav ul {
+        padding-right: 0;
+    }
+
+    #GenNav li {
+        display: inline-block;
+    }
+
+    #GenNav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #DDDDDD;
+        font-weight: 500;
+        margin-left: 30px;
+    }
+
+        #GenNav ul li a:hover {
+            font-weight: 500;
+            cursor: pointer;
+            font-family: 'Rubik', sans-serif;
+            direction: rtl;
+            text-decoration: none;
+            border-bottom: 2px solid #DDDDDD;
+        }
+
+
+/*Login Page*/
+
+#loginpage {
+    width: 60%;
+    height: 40%;
+    position: relative;
+    font-size: 18px;
+    top: 20vh;
+    right: 40%
+}
+
+#loginlogo {
+    margin-right: 6vh;
+    width: 30vh;
+    margin-bottom: 5vh;
+}
+
+.logintextbox {
+    position: relative;
+    font-size: 14px;
+    width: 40vh;
+    height: 5vh;
+    margin-bottom: 0.5vh;
+    border: none;
+    padding-right: 1vh;
+    box-shadow: 2px 2px 2px #80808030;
+}
+
+    .logintextbox::placeholder {
+        color: #558099;
+        right: 1vh;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+
+#userBtn {
+    position: relative;
+    opacity: 0.3;
+    width: 41vh;
+    height: 6vh;
+    margin-bottom: 0.5vh;
+    border: none;
+    box-shadow: 2px 2px 2px #80808030;
+    background-color: #19345B;
+    color: #9FBFD4;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#newuserA {
+    font-size: 13px;
+    color: #558099;
+    font-weight: 400;
+}
+
+#feedbacklogin {
+}
+
+#exampleuser {
+    position: relative;
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+#feedbacklogin {
+    position: relative;
+    right: -1px;
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+    display: block;
+}
+
+#userBtn:active {
+    background: url('../images/logibBtn2.svg') no-repeat;
+}
+
+/*coursePage*/
+
+#coursesPage {
+    color: #606060;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    font-size: 100%;
+    top: 10vh;
+    width: 80%;
+    margin-right: 10%;
+}
+
+#instructions {
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+
+#BtnPanel {
+    float: left;
+    padding-top: 3% padding-bottom:1%;
+}
+
+#TopCoursePage {
+    border: 1px solid red;
+}
+
+#welcomemassege {
+    font-size: 120%;
+    display: inline-block;
+    margin-top: 0;
+}
+
+#NewCourse {
+    display: inline-block;
+    position: relative;
+    float: left;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 95%;
+    width: 120px;
+    border-radius: 3%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    margin-top: 0.5%;
+}
+
+#titlerow {
+    position: relative;
+    width: 100%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 90%;
+    margin-bottom: -0.5%;
+    box-shadow: 2px 3px 2px #80808066;
+}
+
+#noCourses {
+    text-align: center;
+}
+
+#PublishedCBtitle {
+    position: relative;
+    margin-right: 4%;
+}
+
+#gridViewLogotitle {
+    position: relative;
+    margin-right: 2%;
+}
+
+#gridViewTitletitle {
+    position: relative;
+    margin-right: 4.5%;
+}
+
+#deleteImageButtontitle {
+    position: relative;
+    float: left;
+    margin-left: 5.5%;
+}
+
+#settingsImageButtontitle {
+    position: relative;
+    float: left;
+    margin-left: 3.5%;
+}
+
+#NumOfCLabeltitle {
+    position: relative;
+    float: left;
+    margin-left: 4%;
+}
+
+.courseRow {
+    border-radius: 1vh;
+    position: relative;
+    height: 50px;
+    margin-bottom: 1%;
+    background-color: #f4f4f4;
+}
+
+.editRow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+#disableDiv, #disableDiv2 {
+    background-color: #000000a8;
+    z-index: 299;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#deleteCalert {
+    background-color: #cbf9e2e8;
+    position: absolute;
+    width: 550px;
+    height: 190px;
+    border-radius: 6px;
+    display: block;
+    right: 480px;
+    z-index: 1;
+}
+
+#DeleteCdiv {
+    position: absolute;
+    display: block;
+    display: inline-block;
+    width: 100%;
+}
+
+.publishCB {
+    width: 15px;
+    position: relative;
+    float: right;
+    margin-right: 3%;
+    z-index: 2;
+    margin-top: 1.4%;
+}
+
+.gridViewLogo {
+    position: relative;
+    margin-right: 2%;
+    width: 50px;
+    border-radius: 0.5vh;
+}
+
+.gridViewTitle {
+    position: absolute;
+    top: 25%;
+    margin-right: 4%;
+    z-index: 0;
+}
+
+
+.settingsImageButton {
+    position: relative;
+    float: left;
+    width: 25px;
+    margin-left: 5%;
+    filter: brightness(30%);
+    z-index: 2;
+    top: 25%;
+}
+
+.NumOfCLabel {
+    position: relative;
+    float: left;
+    margin-left: 7%;
+    margin-top: 1.5%;
+}
+
+.deleteImageButton {
+    position: relative;
+    float: left;
+    width: 25px;
+    margin-left: 4%;
+    filter: brightness(30%);
+    z-index: 2;
+    top: 25%;
+}
+
+#tableDiv {
+    background-color: white;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    z-index: -400;
+}
+
+
+
+#DeleteImage {
+    display: inline-block;
+    float: right;
+    width: 10%;
+    position: relative;
+    right: 8%;
+    top: 5vh;
+}
+
+
+#deleteCalert {
+    position: fixed;
+    z-index: 300;
+    background-color: white;
+    box-shadow: 3px 3px 4px #0000008a;
+    border-radius: 0;
+    padding: 1%;
+    color: #606060;
+    top: 30%;
+}
+
+.deletelabel {
+    position: relative;
+    margin-right: 25%;
+}
+
+#deleteCancel {
+    position: relative;
+    float: left;
+    margin-left: 6%;
+    margin-top: 4%;
+    width: 25%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    border: 1px solid #999a9b99;
+    border-radius: 0.8vh;
+    background-color: white;
+    color: #606060;
+}
+
+#deleteApprove {
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    width: 25%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border: none;
+    background-color: #F15050;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 0.8vh;
+}
+
+#deletetitle1 {
+    font-size: 120%;
+    margin-bottom: -2%;
+    margin-top: 5%;
+}
+
+#deletetitle2 {
+    font-size: 100%
+}
+
+
+/*settingsPage*/
+#SettingsPage {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+#FileUploadLogo {
+    visibility: hidden;
+    width: 1px;
+}
+
+#uploadLogo {
+    position: relative;
+    display: inline-block;
+    margin-top: 9%;
+}
+
+#ImageforFileUploadLogo {
+    width: 170px;
+    ;
+    background-color: white;
+    position: relative;
+    border: none;
+    display: inline-block;
+}
+
+#checkDeleteLogo {
+    width: 50px;
+    height: 50px;
+}
+
+#checkDeleteLogo {
+    visibility: hidden;
+}
+
+
+#saveCourse {
+    opacity: 0.3;
+    float: left;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    padding-right: 8%;
+    padding-left: 8%;
+    border-radius: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    top: 25vh;
+    font-weight: bold;
+    left: 36%;
+}
+
+#UpadteCourse {
+    opacity: 0.3;
+    float: left;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    padding-right: 8%;
+    padding-left: 8%;
+    border-radius: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    top: 25vh;
+    font-weight: bold;
+    left: 36%;
+}
+
+#backToDefualt {
+    float: left;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    padding-right: 9.5%;
+    padding-left: 9.5%;
+    border-radius: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-right: 4%;
+    top: 25vh;
+    font-weight: bold;
+    left: 36%;
+}
+
+h2 {
+    lessog font-size: 130%;
+    margin: 0;
+    width: 55%;
+    margin-bottom: 5%;
+}
+
+#deleteLogoBtn {
+    width: 35px;
+    bottom: 0;
+    left: 10%;
+    position: absolute;
+    border: none;
+    display: inline-block;
+}
+
+h3 {
+    position: relative;
+    display: inline;
+    font-size: 110%;
+    font-weight: 700;
+    margin-top: -20vh;
+}
+
+.CharLimit {
+    margin: 0;
+    display: inline-block;
+    font-size: 80%;
+}
+
+#settingstitle {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#settingsDescription {
+    width: 100%;
+}
+
+.CharacterCount {
+    margin-top: 1%;
+    border: none;
+}
+
+.labelcounters {
+    position: relative;
+    direction: ltr;
+    font-size: 75%;
+    float: left;
+    margin-top: -3%;
+    z-index: 5
+}
+
+#LabelCounter2 {
+    margin-top: -4%;
+}
+
+#courseNameTB {
+    width: 100%;
+    height: 4vh;
+    height: 25px;
+    padding-right: 1%;
+}
+
+#courseDescriptionTB {
+    width: 100%;
+    height: 190px;
+    padding-right: 1%;
+    resize: none;
+    padding-top: 1%;
+}
+
+#UploadLogoLabel {
+    position: relative;
+    font-size: 110%;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1.5%;
+}
+
+.UploadEdit {
+    position: relative;
+}
+
+#SettingsLeftPanel {
+    position: relative;
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+
+#SettingsRightPanel {
+    width: 52%;
+    display: inline-block;
+    margin-right: 9%;
+}
+
+#settingsBtns {
+    position: relative;
+}
+
+/*coursePage*/
+#noLessons {
+    text-align: center;
+}
+
+h1 {
+    font-size: 120%;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+#LessonsPage {
+    color: #606060;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    font-size: 100%;
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+#BtnPanellessons {
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    width: 40%;
+}
+
+.LessonRow {
+    border-radius: 1vh;
+    position: relative;
+    height: 50px;
+    margin-bottom: 1%;
+    background-color: #f4f4f4;
+}
+
+.LessonssettingsImageButton {
+    position: relative;
+    float: left;
+    width: 25px;
+    margin-left: 5%;
+    filter: brightness(30%);
+    z-index: 2;
+    top: 25%;
+}
+
+
+.studentsAnswersImageButton {
+    position: relative;
+    float: left;
+    width: 25px;
+    margin-left: 5%;
+    filter: brightness(30%);
+    z-index: 2;
+    top: 25%;
+}
+
+#gridLessonsStudentsAsnwersImageButtonTitle {
+    float: left;
+    margin-left: 4%;
+}
+
+#gridLessonPublishCB {
+    margin-right: 4%
+}
+
+#griDlessonTitle {
+    margin-right: 2.5%
+}
+
+#gridLessonsdeleteImageButtonTitle {
+    float: left;
+    margin-left: 2%;
+}
+
+#gridLessonsettingsImageButtonTitle {
+    float: left;
+    margin-left: 4%;
+}
+
+.gridViewLessonTitle {
+    position: absolute;
+    top: 25%;
+    margin-right: 4%;
+    z-index: 0;
+}
+
+.backBTN {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border-radius: 3%;
+}
+
+#backToDefaultLesson {
+    display: inline-block;
+    position: relative;
+    float: left;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 95%;
+    width: 120px;
+    border-radius: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+}
+
+#NewLesson {
+    display: inline-block;
+    position: relative;
+    float: left;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 95%;
+    width: 120px;
+    border-radius: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+/*LessonSettings*/
+
+#LessonSettingsPage {
+    width: 90%;
+    height: 40%;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    font-size: 18px;
+    margin-top: 8%;
+    margin-right: 9%;
+    margin-left: 1px;
+    ;
+}
+
+
+#browseUpload {
+    visibility: hidden;
+    width: 1px;
+}
+
+#urlUploadImageButton {
+    background-image: url('../generatorElements/uploadurl.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+}
+
+#browseUploadImageButton {
+    background-image: url('../generatorElements/uploadbrowse.png');
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+}
+
+.fileEyeIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url('../generatorElements/eyeicon.png');
+    background-size: 100%;
+}
+
+.fileTrashIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url('../generatorElements/deleteicon.png');
+    background-size: 100%;
+}
+
+
+
+
+
+#deleteFalert {
+    position: fixed;
+    z-index: 300;
+    background-color: white;
+    box-shadow: 3px 3px 4px #0000008a;
+    border-radius: 0;
+    padding: 1%;
+    color: #606060;
+    top: 30%;
+}
+
+#LessonNameTB {
+    width: 100%;
+    height: 4vh;
+    font-size: 75%;
+    border: none;
+}
+
+#LessonDescriptionTB {
+    width: 100%;
+    height: 25vh;
+    resize: none;
+    font-size: 75%;
+    padding-top: 1%;
+    border: none;
+}
+
+
+#LessonSettingsRightPanel {
+    width: 55%;
+    display: inline-block;
+    position: absolute;
+}
+
+#LessonSettingsLeftPanel {
+    position: absolute;
+    width: 25%;
+    display: inline-block;
+    right: 60%;
+    top: 10vh;
+}
+
+#UploadFfilesLabel {
+    width: 100%;
+    position: relative;
+    font-size: 110%;
+    font-weight: bold;
+    display: inline-block;
+    top: -2vh;
+    direction: rtl;
+}
+
+#ImageButton1 {
+    width: 40%;
+    padding-right: 1%;
+    padding-left: 2%;
+    background-color: white;
+    position: relative;
+    border: none;
+    left: 30%;
+    margin-bottom: 10%;
+    margin-top: 4%;
+}
+
+#uploadFiles {
+    width: 100%;
+    direction: ltr;
+}
+
+.deleteFile {
+    width: 5%;
+    float: right;
+}
+
+.downloadFile {
+    width: 5%;
+    float: right;
+}
+
+.fileRow {
+    height: 4vh;
+}
+
+.fileRowFile {
+    border-radius: 1vh;
+    position: relative;
+    margin-bottom: 1%;
+    background-color: #f4f4f4;
+    height: 7vh;
+}
+
+.fileName {
+    font-size: 80%;
+}
+
+#backToCoursePage {
+    float: left;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    width: 20%;
+    border-radius: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 20%;
+    width: 30%
+}
+
+#UpadteLesson {
+    float: left;
+    opacity: 0.3;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    width: 20%;
+    border-radius: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 30%
+}
+
+#deleteFalert {
+    position: fixed;
+    direction: rtl;
+    width: 40%;
+    height: 28vh;
+    z-index: 300;
+    background-color: white;
+    box-shadow: 3px 3px 4px #0000008a;
+    border-radius: 0;
+    padding: 1%;
+    color: #606060;
+    top: 30%;
+    right: 26%;
+}
+
+.Lessondeletebtn {
+    position: relative;
+    left: -5%;
+}
+
+.deleteimagelesson {
+    position: relative;
+    margin-top: -2vh;
+}
+
+
+#uploadPopUp {
+    direction: rtl;
+    position: fixed;
+    z-index: 300;
+    background-color: white;
+    box-shadow: 3px 3px 4px #0000008a;
+    border-radius: 0;
+    padding: 1%;
+    color: #606060;
+    top: 25%;
+    right: 30%;
+    width: 40%;
+}
+
+#urlUpload {
+    margin-right: 2%;
+}
+
+#urlTitle {
+    width: 30%;
+    float: right;
+    margin-left: 4%;
+    border: 1px #8080804d solid;
+    ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+    #urlTitle::placeholder {
+        color: #464646;
+        right: 1vh;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+
+#urlLink {
+    width: 60%;
+    float: right;
+    border: 1px #8080804d solid;
+    ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+    #urlLink::placeholder {
+        color: #464646;
+        right: 1vh;
+        opacity: 0.6;
+        font-weight: bold;
+    }
+
+
+#RadioButtonList1 {
+    margin-bottom: 5%;
+}
+
+#uploadApprove {
+    display: inline-block;
+    float: left;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    width: 15%;
+    border-radius: 3%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-right: 4%;
+    margin-top: 5%;
+}
+
+#uploadCancel {
+    display: inline-block;
+    float: left;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 80%;
+    width: 15%;
+    border-radius: 3%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    margin-top: 5%;
+}
+
+/*newLessonSettings*/
+#saveLesson {
+    opacity: 0.3;
+    float: left;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    width: 20%;
+    border-radius: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 30%
+}
+
+/newLessonSettings/
+#saveLesson {
+    opacity: 0.3;
+    float: left;
+    position: relative;
+    border: none;
+    background-color: #094668;
+    color: #F4F4F4;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 85%;
+    width: 20%;
+    border-radius: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 30%
+}
+
+#LessonMakerPage {
+    position: relative;
+    display: block;
+    margin-top: 2%;
+    background-color: #F4F4F4;
+    height: 100%;
+}
+
+#editNav {
+    width: 20%;
+    ;
+    background-color: deeppink;
+}
+
+#editArea {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+#mainEditScreen {
+    background-color: orange;
+    width: 87%;
+    float: right;
+    height: 60vh;
+    padding-top: 1.5%;
+}
+
+#changingInteraction {
+    height: 350px;
+    background-color: purple;
+}
+
+#interactionButtons {
+    background-color: gray;
+    width: 100px;
+}
+
+#interactionsNav {
+    background-color: blue;
+    margin-top: 0%;
+    height: 80%;
+    position: relative;
+}
+
+#timePointDiv {
+    background-color: coral;
+}
+
+#branchScreen {
+    background-color: aqua;
+}
+
+#ProgressArea {
+    background-color: green;
+    position: relative;
+    display: block;
+    height: 18vh;
+    width: 90%;
+    margin-right: 9.5%;
+}
+
+#LeftPanelInteractions {
+    position: relative;
+    background-color: yellow;
+    display: inline-block;
+    width: 12%;
+    height: 60vh;
+    float: left;
+}
+
+#PlayButtonEdit {
+    width: 20px;
+}
+
+#LessonTitle {
+    position: relative;
+}
+
+.lessonedittitle {
+    margin-right: 2%;
+    display: inline;
+}
+
+.editinstructions {
+    margin-right: 2%;
+}
+
+#EditTab {
+}
+
+#TreeTab {
+}
+
+#ConfirmBtn {
+}
+
+#CurrentTime {
+}

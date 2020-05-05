@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user id="1" email="admin@gmail.com" password="admin" first="ינאי" last="זגורי">
+    <courseCounter>12</courseCounter>
+    <course id="1" code="101" published="False">
+      <title>%d7%97%d7%93%d7%a9%d7%a0%d7%95%d7%aa+%d7%91%d7%9c%d7%9e%d7%99%d7%93%d7%94+%d7%91%d7%9e%d7%90%d7%94+%d7%94-21</title>
+      <author>ינאי זגורי</author>
+      <logo>1.jpeg</logo>
+      <description>%d7%94%d7%a6%d7%98%d7%a8%d7%a4%d7%95+%d7%90%d7%9c%d7%99%d7%a0%d7%95+%d7%9c%d7%a4%d7%95%d7%93%d7%a7%d7%90%d7%a1%d7%98+%d7%94%d7%9e%d7%a6%d7%99%d7%92+%d7%90%d7%aa+%d7%94%d7%99%d7%9b%d7%95%d7%9c%d7%95%d7%aa+%d7%a9%d7%9c%d7%a0%d7%95+%d7%9c%d7%91%d7%a6%d7%a2+%d7%9c%d7%9e%d7%99%d7%93%d7%94+%d7%90%d7%a7%d7%98%d7%99%d7%91%d7%99%d7%aa+%d7%91%d7%90%d7%9e%d7%a6%d7%a2%d7%95%d7%aa+%d7%a9%d7%9e%d7%a2+%d7%91%d7%9c%d7%91%d7%93.+%d7%aa%d7%a0%d7%95+%d7%9c%d7%90%d7%95%d7%96%d7%a0%d7%99%d7%99%d7%9d+%d7%a9%d7%9c%d7%9b%d7%9d+%d7%9c%d7%a7%d7%97%d7%aa+%d7%90%d7%aa%d7%9b%d7%9d+%d7%90%d7%99%d7%aa%d7%99+%d7%95%d7%aa%d7%91%d7%99%d7%a0%d7%95+%d7%a9%d7%94+%d7%90%d7%95%d7%9c%d7%99+%d7%9c%d7%90+%d7%9b%d7%9c+%d7%9b%d7%9a+%d7%9e%d7%a1%d7%95%d7%91%d7%9a+%d7%9b%d7%9e%d7%95+%d7%a9%d7%96%d7%94+%d7%a0%d7%a9%d7%9e%d7%a2</description>
+      <lessons>
+        <lesson id="1" published="False">
+          <audio duration="01:26">1</audio>
+          <title>שירותיות 101 - פרק א'</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <files>
+            <filesCounter>6</filesCounter>
+            <file id="2">
+              <fileName>yanai_file1.docx</fileName>
+            </file>
+            <file id="4">
+              <fileName>30_04_20-21_46_31_הנחיות.pptx</fileName>
+              <fileFormat>.pptx</fileFormat>
+            </file>
+          </files>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+        <lesson id="2" published="True">
+          <audio duration="01:26">1</audio>
+          <title>שיעור מספר 2</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+      </lessons>
+    </course>
+    <course id="3" code="101" published="False">
+      <title>%d7%94%d7%a7%d7%95%d7%a8%d7%a1+%d7%94%d7%9b%d7%99+%d7%98%d7%95%d7%91+%d7%a9%d7%a7%d7%99%d7%99%d7%9d</title>
+      <author>נאור אדיר</author>
+      <logo>23_04_20-14_00_46Logo.jpg</logo>
+      <description>%d7%91%d7%9b%d7%9c+%d7%94%d7%a2%d7%95%d7%9c%d7%9d</description>
+      <lessons>
+      </lessons>
+    </course>
+    <course id="4" code="104" published="True">
+      <title>קורס מספר 4</title>
+      <author>נאור אדיר</author>
+      <logo>2.jpeg</logo>
+      <description>הצטרפו אלינו לפודקאסט המציג את היכולות שלנו לבצע למידה אקטיבית באמצעות שמע בלבד. תנו לאוזניים שלכם לקחת אתכם איתי ותבינו שה אולי לא כל כך מסובך כמו שזה נשמע</description>
+      <lessons>
+        <lesson id="1" published="True">
+          <audio duration="01:26">1</audio>
+          <title>שירותיות 101 - פרק א'</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+      </lessons>
+    </course>
+    <course id="5" code="105" published="True">
+      <title>חדשנות בלמידה במאה ה-21</title>
+      <author>נאור אדיר</author>
+      <logo>1.jpeg</logo>
+      <description>הצטרפו אלינו לפודקאסט המציג את היכולות שלנו לבצע למידה אקטיבית באמצעות שמע בלבד. תנו לאוזניים שלכם לקחת אתכם איתי ותבינו שה אולי לא כל כך מסובך כמו שזה נשמע</description>
+      <lessons>
+        <lesson id="1" published="False">
+          <audio duration="01:26">1</audio>
+          <title>שירותיות 101 - פרק א'</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+        <lesson id="2" published="False">
+          <audio duration="01:26">1</audio>
+          <title>שיעור מספר 2</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+      </lessons>
+    </course>
+    <course id="6" code="106" published="True">
+      <title>חדשנות בלמידה במאה ה-21</title>
+      <author>נאור אדיר</author>
+      <logo>1.jpeg</logo>
+      <description>הצטרפו אלינו לפודקאסט המציג את היכולות שלנו לבצע למידה אקטיבית באמצעות שמע בלבד. תנו לאוזניים שלכם לקחת אתכם איתי ותבינו שה אולי לא כל כך מסובך כמו שזה נשמע</description>
+      <lessons>
+        <lesson id="1" published="True">
+          <audio duration="01:26">1</audio>
+          <title>שירותיות 101 - פרק א'</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+        <lesson id="2" published="False">
+          <audio duration="01:26">1</audio>
+          <title>שיעור מספר 2</title>
+          <description>מציאות רבודה, איפה זה פוגש אותנו? מה ההיסטוריה</description>
+          <interactions>
+            <interaction id="1" type="rate">
+              <STC>2</STC>
+              <q>מה מידת הסכמתך עם הנאמר?</q>
+              <min>
+                <text>לא מסכים במידה רבה</text>
+                <num>1</num>
+              </min>
+              <max>
+                <text>מסכים במידה רבה</text>
+                <num>10</num>
+              </max>
+            </interaction>
+            <interaction id="2" type="open">
+              <STC>5</STC>
+              <q>מה דעתך על הנאמר?</q>
+            </interaction>
+            <interaction id="3" type="multi">
+              <STC>10</STC>
+              <q>האם אתה מזהה מה התשובה הנכונה?</q>
+              <a id="1" correct="true">נכון</a>
+              <a id="2" correct="false">לא נכון</a>
+              <a id="3" correct="false">לא נכון</a>
+              <a id="4" correct="false">לא נכון</a>
+              <a id="5" correct="true">נכון</a>
+            </interaction>
+            <interaction id="4" type="branch">
+              <STC>23</STC>
+              <FTC>76</FTC>
+              <q>איך הייתם מגיבים במצב הזה?</q>
+              <a id="1" jumpTo="24" until="33.5">מנתק לו בפנים</a>
+              <a id="2" jumpTo="40" until="55.5">צועק עליו בחזרה</a>
+              <a id="3" jumpTo="56" until="75">מנסה להרגיע אותו ולפתור לו את הבעיה</a>
+              <a id="4" jumpTo="0" until="23">טעות - מחזיר אחורה</a>
+            </interaction>
+          </interactions>
+        </lesson>
+      </lessons>
+    </course>
+  </user>
+  <user id="2" email="user1@gmail.com" password="user1" first="אביתר" last="כהן">
+    <courseCounter>14</courseCounter>
+    <course id="9" code="109" published="False">
+      <title>%d7%a4%d7%95%d7%93%d7%a7%d7%90%d7%a1%d7%98%d7%99%d7%9d+%d7%90%d7%99%d7%a0%d7%98%d7%a8%d7%90%d7%a7%d7%98%d7%99%d7%91%d7%99%d7%99%d7%9d+-+%d7%9e%d7%94%3f+%d7%90%d7%99%d7%9a%3f+%d7%9c%d7%9e%d7%94%3f</title>
+      <author>אביתר כהן</author>
+      <logo>DefaultLogo1.png</logo>
+      <description>%d7%97%d7%93%d7%a9%d7%99%d7%9d+%d7%a4%d7%94%3f+%d7%91%d7%95%d7%90%d7%95+%d7%9c%d7%a9%d7%9e%d7%95%d7%a2+%d7%9e%d7%94+%d7%96%d7%94+%d7%90%d7%95%d7%9e%d7%a8+%d7%a4%d7%95%d7%93%d7%a7%d7%90%d7%a1%d7%98+%d7%90%d7%99%d7%a0%d7%98%d7%a8%d7%90%d7%a7%d7%98%d7%99%d7%91%d7%99%2c+%d7%90%d7%99%d7%9a+%d7%9c%d7%99%d7%a6%d7%95%d7%a8+%d7%90%d7%95%d7%aa%d7%95+%d7%91%d7%a6%d7%95%d7%a8%d7%94+%d7%a0%d7%9b%d7%95%d7%a0%d7%94+%d7%95%d7%90%d7%99%d7%9a+%d7%9c%d7%92%d7%a8%d7%95%d7%9d+%d7%9c%d7%9e%d7%90%d7%96%d7%99%d7%a0%d7%99%d7%9d+%d7%a9%d7%9c%d7%9a+%d7%9c%d7%9c%d7%9e%d7%95%d7%93+%d7%90%d7%91%d7%9c+%d7%92%d7%9d+%d7%9c%d7%94%d7%a0%d7%95%d7%aa+%d7%9e%d7%94%d7%93%d7%a8%d7%9a</description>
+      <lessons>
+        <lessonsCounter>5</lessonsCounter>
+        <lesson id="3" published="False">
+          <audio duration="" />
+          <title>%d7%9e%d7%94+%d7%96%d7%90%d7%aa+%d7%90%d7%95%d7%9e%d7%a8%d7%aa+%d7%a4%d7%95%d7%93%d7%a7%d7%90%d7%a1%d7%98+%d7%90%d7%99%d7%a0%d7%98%d7%a8%d7%90%d7%a7%d7%98%d7%99%d7%91%d7%99%3f</title>
+          <description>%d7%91%d7%a9%d7%99%d7%a2%d7%95%d7%a8+%d7%96%d7%94+%d7%a0%d7%a1%d7%91%d7%99%d7%a8+%d7%90%d7%aa+%d7%94%d7%a7%d7%95%d7%a0%d7%a1%d7%a4%d7%98+%d7%a9%d7%9c+%d7%a4%d7%95%d7%93%d7%a7%d7%90%d7%a1%d7%98+%d7%90%d7%99%d7%a0%d7%98%d7%a8%d7%90%d7%a7%d7%98%d7%99%d7%91%d7%99%2c+%d7%9e%d7%94+%d7%94%d7%95%d7%90+%d7%9b%d7%95%d7%9c%d7%9c%2c+%d7%9e%d7%94+%d7%94%d7%95%d7%90+%d7%9c%d7%90+%d7%9b%d7%95%d7%9c%d7%9c+%d7%95%d7%90%d7%99%d7%9a+%d7%90%d7%a4%d7%a9%d7%a8+%d7%9c%d7%94%d7%a9%d7%aa%d7%9e%d7%a9+%d7%91%d7%96%d7%94+%d7%9c%d7%98%d7%95%d7%91%d7%aa%d7%a0%d7%95</description>
+          <files>
+            <filesCounter>2</filesCounter>
+            <file id="1">
+              <fileName>song</fileName>
+              <fileFormat>url</fileFormat>
+              <fileLink>https://www.youtube.com/watch?v=SNuiL8XmAdo</fileLink>
+            </file>
+            <file id="2">
+              <fileName>grandma-01.png_05_05_20-19_36_41</fileName>
+              <fileFormat>.png</fileFormat>
+            </file>
+          </files>
+        </lesson>
+        <lesson id="4" published="False">
+          <audio duration="" />
+          <title>%d7%90%d7%99%d7%9a+%d7%9e%d7%aa%d7%97%d7%99%d7%9c%d7%99%d7%9d%3f</title>
+          <description>%d7%94%d7%97%d7%9c%d7%98%d7%aa%d7%9d+%d7%a9%d7%90%d7%aa%d7%9d+%d7%99%d7%95%d7%a6%d7%a8%d7%99%d7%9d+%d7%a4%d7%95%d7%93%d7%a7%d7%90%d7%a1%d7%98+%d7%a9%d7%9b%d7%96%d7%94..+%d7%90%d7%99%d7%9a+%d7%a2%d7%95%d7%a9%d7%99%d7%9d+%d7%a9%d7%99%d7%a2%d7%95%d7%a8+%d7%a0%d7%9b%d7%95%d7%9f%3f+%d7%91%d7%95%d7%90%d7%95+%d7%9c%d7%a9%d7%9e%d7%95%d7%a2</description>
+          <files>
+            <filesCounter>0</filesCounter>
+          </files>
+        </lesson>
+      </lessons>
+    </course>
+    <course id="12" code="112" published="False">
+      <title>%d7%a7%d7%95%d7%a8%d7%a1+%d7%9e%d7%a1%d7%a4%d7%a8+2</title>
+      <author>אביתר כהן</author>
+      <logo>050520-193524Logo.png</logo>
+      <description>%d7%a7%d7%95%d7%a8%d7%a1+%d7%98%d7%95%d7%91.</description>
+      <lessons>
+        <lessonsCounter>0</lessonsCounter>
+      </lessons>
+    </course>
+  </user>
+</users>
